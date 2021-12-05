@@ -1,0 +1,4 @@
+mysql/data/
+mysql/logs/
+nginx/logs/
+.DS_Store
