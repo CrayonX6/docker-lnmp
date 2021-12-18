@@ -8,6 +8,10 @@
 
 ### 选择性的安装和执行
 
+
+"docker exec --privileged=true -i `docker ps -a --format='table {{.ID}}\t{{.Names}}' | grep '_app-fpm' | awk '{print $1}'`"
+
+
 * 安装 [`docker`](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce) 和 [`docker-compose`](https://docs.docker.com/compose/install/#install-compose) 软件。
 * 参照 [`docker/README.md`](https://github.com/jtleon/docker/blob/master/docker/README.md) 文档安装 `Docker` 开发环境。
 * 进入到 `docker` 目录后执行 `sudo docker-compose up -d` 启动开发环境。

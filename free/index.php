@@ -17,3 +17,6 @@ function say(string $world) : string {
 echo say('docker-lnmp, by leon &lt;jiangxilee@gmail.com&gt;');
 
 phpinfo();
+
+
+// 链接 MySQL、Redis 使用域名：host.docker.internal 加对应服务的端口
