@@ -56,17 +56,22 @@ RUN curl -fsSL 'http://www.zlib.net/zlib-1.2.11.tar.gz' -o zlib.tar.gz \
 #
 # EXT intl with dependent ICU
 #
-RUN if [ -f "src-package/icu.tgz" ]; then cp src-package/icu.tgz .; else curl -fsSL 'http://download.icu-project.org/files/icu4c/60.2/icu4c-60_2-src.tgz' -o icu.tgz; fi \
-    && mkdir -p /tmp/icu \
-    && tar -xf icu.tgz -C /tmp/icu --strip-components=1 \
-    && rm -f icu.tgz \
-    && ( \
-        cd /tmp/icu/source \
-        && ./configure --prefix=/usr/local/icu \
-        && make -j$(nproc) \
-        && make install \
-    ) \
-    && docker-php-ext-configure intl --enable-intl --with-icu-dir=/usr/local/icu \
+#RUN if [ -f "src-package/icu.tgz" ]; then cp src-package/icu.tgz .; else curl -fsSL 'http://download.icu-project.org/files/icu4c/60.2/icu4c-60_2-src.tgz' -o icu.tgz; fi \
+#    && mkdir -p /tmp/icu \
+#    && tar -xf icu.tgz -C /tmp/icu --strip-components=1 \
+#    && rm -f icu.tgz \
+#    && ( \
+#        cd /tmp/icu/source \
+#        && ./configure --prefix=/usr/local/icu \
+#        && make -j$(nproc) \
+#        && make install \
+#    ) \
+#    && docker-php-ext-configure intl --enable-intl --with-icu-dir=/usr/local/icu \
+#    && docker-php-ext-install -j$(nproc) intl
+RUN apt-get install -y \
+    zlib1g-dev \
+    libicu-dev g++ \
+    && docker-php-ext-configure intl \
     && docker-php-ext-install -j$(nproc) intl
 
 #

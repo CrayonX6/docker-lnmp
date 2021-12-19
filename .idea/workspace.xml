@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d46ea8-6685-423c-9a93-d37d0d6335f7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/free/array.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/free/hello.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/free/obj.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/free/struct.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/php/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php/php.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/script/library.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/script/library.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/free/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/free/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/php/7.3/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php/7.3/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +48,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -164,15 +164,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\app\docker\php\7.3" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\app\docker\php\src" />
       <recent name="D:\app\docker\nginx" />
       <recent name="D:\app\docker\script" />
       <recent name="D:\app\docker\script\dockerfile" />
       <recent name="D:\app\docker\redis" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\app\docker\php\7.3" />
     </key>
   </component>
   <component name="RunManager">
@@ -211,7 +211,7 @@
       <workItem from="1638694114730" duration="22000" />
       <workItem from="1638694148611" duration="5000" />
       <workItem from="1639818027612" duration="2727000" />
-      <workItem from="1639822589801" duration="2568000" />
+      <workItem from="1639822589801" duration="6949000" />
     </task>
     <servers />
   </component>
