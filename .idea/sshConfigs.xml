@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.140.128" id="ef932ed9-6637-48bc-8e05-eeb5a443dbcc" port="22" customName="ubuntu" nameFormat="CUSTOM" username="lixing">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="ubuntu" id="ef932ed9-6637-48bc-8e05-eeb5a443dbcc" port="22" customName="ubuntu" nameFormat="CUSTOM" username="lixing">
         <option name="customName" value="ubuntu" />
       </sshConfig>
     </configs>

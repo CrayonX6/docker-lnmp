@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="0867aa81-313a-4678-9552-b637ee48cd46" name="ubuntu" url="http://free.app">
-        <fileTransfer rootFolder="/home/lixing/docker-lnmp" accessType="SFTP" host="192.168.140.128" port="22" sshConfigId="ef932ed9-6637-48bc-8e05-eeb5a443dbcc" sshConfig="ubuntu">
+        <fileTransfer rootFolder="/home/lixing/docker-lnmp" accessType="SFTP" host="ubuntu" port="22" sshConfigId="ef932ed9-6637-48bc-8e05-eeb5a443dbcc" sshConfig="ubuntu">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
